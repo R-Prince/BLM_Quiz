@@ -23,6 +23,7 @@
   margin-bottom: 40px;
   border: 2px solid black;
   font-size: 25px;
+  width: 100%;
 }
 
 .choice-prefix {
@@ -33,14 +34,63 @@
 
 .choice-text {
   padding: 15px;
+  width:100%;
 }
 
 .hvr-grow {
   display: block;
 }
 
-.choice-container p {
+.correct {
+  background-color: #28a745;
+}
+
+.incorrect {
+  background-color: #dc3545;
+}
+
+.blm {
+    font-size: 300px;
+}
+
+.choice-container p{
     display: inline;
 }
 
+/*----HUD----*/
 
+#hud {
+    justify-content: space-between;
+}
+
+#hud-item {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#progress-bar {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+}
+
+#progressBarFull {
+    height: 28px;
+    background-color: black;
+    width: 0%;
+}
+
+/*----EndPage----*/
+.end-container {
+    margin-top: 15%;
+}
+
+.btn-home {
+    width: 150px;
+}
+
+.final-score {
+    font-size: 60px;
+    margin-bottom: 30px;
+    margin-top: 0px;
+}

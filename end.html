@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>BLM Quiz | Congratulations</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link href="style.css" rel="stylesheet" type="text/css" />
+    </head>
+    <body>
+        <div class="container end-container text-center">
+            <div class="row">
+                <div class="col-12">
+                    <h1 id="finalScore" class="final-score"></h1>
+                    <form>
+                    <div class="col-12 username mb-2">
+                        <input type="text" name="username" id="username" placeholder="Username" class="btn-home"/>
+                    </div>
+                    <div class="col-12 mb-5">
+                        <button type="submit" class="btn btn-danger btn-home" id="saveScoreBtn"    onclick="saveHighScore(event)" disabled>
+                        Save
+                        </button>
+                    </div>
+                    </form>
+                    <div class="col-12 mb-3">
+                        <a class="btn btn-danger btn-home" href="/game.html">Play Again</a>
+                    </div>
+                    <div class="col-12 mb-3">
+                        <a class="btn btn-danger btn-home" href="/">Go Home</a>
+                    </div> 
+                </div>
+            </div> 
+        </div>
+    </body>
+    <script src="end.js"></script>
+</html>
