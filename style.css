@@ -11,7 +11,7 @@
 /*----Game----*/
 .game-container {
   height: 400px;
-  margin-top: 60px;
+  margin-top: 50px;
   margin-bottom: 100px;
   padding-top: 5%;
 }
@@ -82,7 +82,7 @@
 
 /*----EndPage----*/
 .end-container {
-    margin-top: 15%;
+    margin-top: 10%;
 }
 
 .btn-home {
