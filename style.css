@@ -1,0 +1,46 @@
+
+
+/*----Home Page----*/
+.page-container {
+  height: 400px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding-top: 10%;
+}
+
+/*----Game----*/
+.game-container {
+  height: 400px;
+  margin-top: 60px;
+  margin-bottom: 100px;
+  padding-top: 5%;
+}
+
+.question-title {
+  margin-bottom: 60px;
+}
+.choice-container {
+  margin-bottom: 40px;
+  border: 2px solid black;
+  font-size: 25px;
+}
+
+.choice-prefix {
+  background-color: black;
+  padding: 7px 20px;
+  color: white;
+}
+
+.choice-text {
+  padding: 15px;
+}
+
+.hvr-grow {
+  display: block;
+}
+
+.choice-container p {
+    display: inline;
+}
+
+
